@@ -19,7 +19,7 @@ export default function ExternalEmbedSection({
       <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-24 relative z-10">
 
         <FadeUp className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight" style={{ filter: "blur(0.1px)" }}>
+          <h2 className="text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight">
             3D Model
           </h2>
           <p className="mt-2 text-xl font-serif font-light text-brand-muted max-w-2xl mx-auto">

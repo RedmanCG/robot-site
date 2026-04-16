@@ -36,7 +36,7 @@ export default function OverviewCards() {
       <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-12 lg:px-24">
 
         <FadeUp className="text-center mb-16 lg:mb-20 cursor-default">
-          <h2 className="text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight" style={{ filter: "blur(0.1px)" }}>
+          <h2 className="text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight">
             How it works
           </h2>
         </FadeUp>

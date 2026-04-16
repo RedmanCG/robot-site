@@ -24,7 +24,6 @@ export default function VideoCard({
           }
         }
       },
-      // Trigger when 50% of the video container is visible
       { threshold: 0.5 }
     );
 
@@ -50,7 +49,6 @@ export default function VideoCard({
               <iframe
                 src={youtubeEmbedUrl}
                 title="Product Video"
-                loading="lazy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 className="w-full h-full object-cover z-10 block"

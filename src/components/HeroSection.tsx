@@ -47,7 +47,6 @@ export default function HeroSection() {
               <motion.span
                 {...fadeUp(0.9 + i * 0.18)}
                 className="block text-5xl font-bold tracking-tight text-brand-navy leading-[1.1]"
-                style={{ filter: "blur(0.1px)" }}
               >
                 {line}
               </motion.span>
@@ -80,7 +79,6 @@ export default function HeroSection() {
             <motion.span
               {...fadeUp(0.9)}
               className="block text-6xl lg:text-7xl font-bold tracking-tight text-brand-navy leading-[1.05] whitespace-nowrap"
-              style={{ filter: "blur(0.1px)" }}
             >
               Always know what&apos;s
             </motion.span>
@@ -90,7 +88,6 @@ export default function HeroSection() {
             <motion.span
               {...fadeUp(1.08)}
               className="block text-6xl lg:text-7xl font-bold tracking-tight text-brand-navy leading-[1.05]"
-              style={{ filter: "blur(0.1px)" }}
             >
               changing
             </motion.span>

@@ -24,7 +24,7 @@ export default function WhatChangesSection() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 sm:px-12">
         <FadeUp className="text-center mb-6 lg:mb-8">
-          <h2 className="text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight" style={{ filter: "blur(0.1px)" }}>
+          <h2 className="text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight">
             Why it’s better
           </h2>
         </FadeUp>
