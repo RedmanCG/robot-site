@@ -18,6 +18,11 @@ const merriweather = Merriweather({
 export const metadata: Metadata = {
   title: "Premium Robotics | Real-Time Intelligence",
   description: "Construction site intelligence and remote spatial awareness.",
+  icons: {
+    icon: "/icon.jpg",
+    shortcut: "/icon.jpg",
+    apple: "/icon.jpg",
+  },
 };
 
 export default function RootLayout({
