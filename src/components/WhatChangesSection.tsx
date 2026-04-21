@@ -16,7 +16,7 @@ export default function WhatChangesSection() {
   ];
 
   return (
-    <section className="relative w-full pt-4 pb-12 lg:pt-6 lg:pb-16 bg-brand-bg overflow-hidden">
+    <section className="relative w-full pt-4 pb-12 lg:pt-6 lg:pb-16 bg-brand-bg" style={{ overflow: 'clip' }}>
       <ExtremeSideMesh />
 
       {/* Bottom Fade to White */}
