@@ -20,7 +20,7 @@ export default function Home() {
       <OverviewCards />
       <WhatChangesSection />
       <ExternalEmbedSection />
-      <ComparisonSection />
+      <div className="hidden md:block"><ComparisonSection /></div>
       <Footer />
     </main>
   );

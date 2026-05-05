@@ -19,14 +19,7 @@ export default function Footer() {
               height={100}
               className="object-contain"
             />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/keinsaas_Logo.png"
-              alt="KeinSAAS"
-              width={160}
-              height={56}
-              className="object-contain"
-            />
+
           </div>
 
           {/* Column 2 - Navigation */}
@@ -60,7 +53,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="text-brand-muted">
-                Järveana tee 9<br />11314 Tallinn, Estonia
+                Maximilianstraße 27<br />6020 Innsbruck, Austria
               </li>
             </ul>
           </div>
