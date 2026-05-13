@@ -65,8 +65,8 @@ export default function HeroSection() {
 
         {/* Button — pinned to bottom */}
         <motion.div {...fadeUp(1.8)} className="mb-[50px]">
-          <a href="#outputs">
-            <button className={btnClass}>Test now</button>
+          <a href="/pitch">
+            <button className={btnClass}>Open Pitch deck</button>
           </a>
         </motion.div>
       </div>
@@ -104,8 +104,8 @@ export default function HeroSection() {
 
           {/* CTA */}
           <motion.div {...fadeUp(1.75)} className="mt-8">
-            <a href="#outputs">
-              <button className={btnClass}>Test now</button>
+            <a href="/pitch">
+              <button className={btnClass}>Open Pitch deck</button>
             </a>
           </motion.div>
         </div>

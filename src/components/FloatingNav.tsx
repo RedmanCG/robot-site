@@ -67,10 +67,11 @@ export default function FloatingNav() {
   }, []);
 
   const navLinks = [
-    { label: "Sensors", href: "#technology" },
-    { label: "How It Works", href: "#use-cases" },
-    { label: "3D Model", href: "#outputs" },
-    { label: "Contact", href: "#contact" },
+    { label: "Sensors", href: "/#technology" },
+    { label: "How It Works", href: "/#use-cases" },
+    { label: "3D Model", href: "/#outputs" },
+    { label: "Pitch", href: "/pitch" },
+    { label: "Contact", href: "/#contact" },
   ];
 
   return (
