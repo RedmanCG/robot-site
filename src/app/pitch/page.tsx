@@ -20,7 +20,6 @@ export default function PitchPage() {
         {/* We use %20 to handle spaces in the filename safely */}
         <PDFViewerWrapper fileUrl="/Scantix%20Pitch%20Deck.pdf" />
       </div>
-
       <Footer />
     </main>
   );

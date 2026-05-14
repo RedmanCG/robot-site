@@ -1,10 +1,11 @@
 import FloatingNav from "@/components/FloatingNav";
 import HeroSection from "@/components/HeroSection";
 import VideoCard from "@/components/VideoCard";
-import ComparisonSection from "@/components/ComparisonSection";
+
 import OverviewCards from "@/components/OverviewCards";
 import WhatChangesSection from "@/components/WhatChangesSection";
 import ExternalEmbedSection from "@/components/ExternalEmbedSection";
+import TeamSection from "@/components/pitch/TeamSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -20,7 +21,8 @@ export default function Home() {
       <OverviewCards />
       <WhatChangesSection />
       <ExternalEmbedSection />
-      <div className="hidden md:block"><ComparisonSection /></div>
+
+      <TeamSection />
       <Footer />
     </main>
   );
